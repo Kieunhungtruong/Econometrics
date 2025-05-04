@@ -1,6 +1,6 @@
 If you have the STATA version of this textbook, you can also use the online datasets available at the following structure:
 
-use "https://raw.githubusercontent.com/Kieunhungtruong/Econometrics/main/Data/[file name]", clear
+```use "https://raw.githubusercontent.com/Kieunhungtruong/Econometrics/main/Data/[file name]", clear```
 
 For example, to load GDP_population.dta:
 use "https://raw.githubusercontent.com/Kieunhungtruong/Econometrics/main/Data/GDP_population.dta", clear
