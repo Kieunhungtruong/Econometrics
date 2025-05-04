@@ -9,5 +9,6 @@ For Excel files, you can use the following commands:
 For Excel files, you can use the following commands:
 ```copy "https://raw.githubusercontent.com/Kieunhungtruong/Econometrics/main/Data/grade.xlsx" "grade.xlsx", replace```
 
-```import excel "grade.xlsx", firstrow clear```
+```import excel "grade.xlsx", firstrow clear``
+`
 These commands allow you to use the dataset even if you do not have the data files stored locally on your computer.
