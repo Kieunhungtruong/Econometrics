@@ -1,14 +1,14 @@
 clear
 global link "~" 
 /* Điều địa chỉ dẫn đến thư mục làm việc vào ~. 
-Ví dụ thư phục làm việc là "C:\Downloads\data and dofile\1.data\chương 4" thì cú pháp là:
-global link "C:\Downloads\data and dofile\1.data\chương 4" 
+Ví dụ thư phục làm việc là "C:\Downloads\data and dofile\1.data\chapter4" thì cú pháp là:
+global link "C:\Downloads\data and dofile\1.data\chapter4" 
 */
 capture log close
 set more off
 /******************************************************************/  
 /*      Chapter 4                                                 */
-/*      File Name:  chương 4.do                                   */  
+/*      File Name:  chapter4.do                                   */  
 /*      Date:       October 31, 2024                              */  
 /*      Authors:    Nhung                                         */  
 /*      Purpose:    Regression specification                      */  
@@ -18,10 +18,10 @@ set more off
 /*                      _migration_remittances_16_full.dta        */ 
 /*                      GCF_FCE.dta                               */
 /*                      working_children.dta                      */  
-/*      Output File:    chuong4.log                               */  
+/*      Output File:    chapter4.log                               */  
 /******************************************************************/ 
 
-log using chuong4.log, text replace
+log using chapter4.log, text replace
 
 use "$link\migration_remittances_16_full.dta",clear
 

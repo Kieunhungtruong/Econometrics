@@ -1,8 +1,8 @@
 clear
 global link "~" 
 /* Điều địa chỉ dẫn đến thư mục làm việc vào ~. 
-Ví dụ thư phục làm việc là "C:\Downloads\data and dofile\1.data\chương 1" thì cú pháp là:
-global link "C:\Downloads\data and dofile\1.data\chương 1" 
+Ví dụ thư phục làm việc là "C:\Downloads\data and dofile\1.data\chapter1" thì cú pháp là:
+global link "C:\Downloads\data and dofile\1.data\chapter1" 
 */
 capture log close
 set more off
